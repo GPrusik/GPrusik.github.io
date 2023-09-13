@@ -1,0 +1,185 @@
+body {
+    color: #090909;
+    background-color: #85A9DF;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+}
+
+nav  {
+    width: 100%;
+    height: 45px;
+    background-color: #5C6555;
+    display: flex;
+    justify-content: right;
+
+}
+
+.nav-item a {
+    color: #ADA189;
+}
+
+.nav-item:hover {
+    background-color: #85A9DF;
+    height: 20px;
+    width: 125px;
+}
+
+.nav-item:hover a {
+    color: #39442B;
+}
+
+footer {
+    background-color: #5C6555;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item a {
+    color: #ada189;
+}
+
+.footer-item:hover {
+    background-color: #85A9DF;
+    height: 20px;
+    width: 125px;
+}
+
+.footer-item:hover a {
+    color: #39442B;
+}
+
+.birds {
+    margin-top: -111px;
+    margin-left: 700px;
+    border-radius: 100px;
+    border-style: dotted;
+    border-color: #85A9DF;
+}
+
+.plane {
+    margin-top:  -111px;
+    margin-left: -850px;
+}
+
+
+.intro {
+    height: 250px;
+    color: grey;
+    font-size: larger;
+    padding: 100px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.intro-skills {
+    font-family: 'Montserrat', serif;
+    text-align: center;
+}
+
+.skills {
+    height: 1000px;
+    color: #39442B;
+    background-color: #ADA189;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+    text-align: center;
+}
+
+.skills-item a {
+    color: #5C6555;
+    text-decoration: none;
+}
+
+.skills-item:hover {
+    background-color: #39442B;
+}
+
+.skills-item:hover a {
+    color: #85A9DF;
+}
+
+.language-card {
+    background-color: #85A9DF;
+    height: 505px;
+    text-align: center;
+    
+    
+}
+
+.leadership-card {
+    background-color: #85A9DF;
+    height: 505px;
+    text-align: center;
+    
+}
+
+.skills-card {
+    background-color: #85A9DF;
+    height: 505px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.language-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.leadership-list {
+    text-align: left;
+    margin-left: 20px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.skills-list {
+    text-align: left;
+    margin-left: 20px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.hr-split {
+    border-style: dashed;
+    border-color: #85A9DF;
+}
+
+.card {
+    background-color: white;
+    text-align: left;
+    margin-left: 25%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    width: 50%;
+}
+
+form {
+    box-sizing: border-box;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.submit {
+    text-align: center;
+}
+
+
+
+
+
+
